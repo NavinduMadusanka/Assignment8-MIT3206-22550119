@@ -21,6 +21,14 @@
         tools:ignore="SelectedPhotoAccess" />
     <uses-permission
         android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.touchscreen" />
+    <uses-feature android:name="android.hardware.touchscreen.multitouch" />
+    <uses-feature android:name="android.hardware.touchscreen.multitouch.raw" />
+    <uses-feature android:name="android.hardware.touchscreen.multitouch.stylus" />
+    <uses-feature android:name="android.hardware.touchscreen.multitouch.stylus.raw" />
+    <uses-feature android:name="android.hardware.touchscreen.stylus" />
+    <uses-feature android:name="android.hardware.touchscreen.stylus.raw" />
+    <uses-feature android:name="android.hardware.touchscreen.stylus.stylus" />
 
     <application
         android:usesCleartextTraffic="true"
