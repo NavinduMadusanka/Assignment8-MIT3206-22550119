@@ -27,7 +27,6 @@ public class Browsing_Internal_Storage extends Activity {
 
     }
 
-
     // write text to file
     public void WriteBtn(View v) {
         // add-write text into file
@@ -64,7 +63,6 @@ public class Browsing_Internal_Storage extends Activity {
             }
             InputRead.close();
             textmsg.setText(s);
-
 
         } catch (Exception e) {
             e.printStackTrace();

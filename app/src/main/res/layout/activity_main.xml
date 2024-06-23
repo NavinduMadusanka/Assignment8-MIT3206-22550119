@@ -47,7 +47,6 @@
         android:layout_below="@+id/button"
         android:layout_marginTop="20dp">
 
-
     </WebView>
 
     <LinearLayout

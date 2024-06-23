@@ -53,8 +53,6 @@ public class MainActivity extends Activity  {
             }
         });
 
-
-
     }
 
     private class MyBrowser extends WebViewClient {
@@ -64,8 +62,6 @@ public class MainActivity extends Activity  {
             return true;
         }
 
-
     }
-
 
 }
