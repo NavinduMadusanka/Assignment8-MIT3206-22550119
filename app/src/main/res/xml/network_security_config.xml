@@ -7,5 +7,10 @@
             tools:ignore="NetworkSecurityConfig">google.com</domain>
         <domain includeSubdomains="true"
             tools:ignore="NetworkSecurityConfig">bing.com</domain>
+        <domain includeSubdomains="true"
+            tools:ignore="NetworkSecurityConfig">.com</domain>
+        <domain
+            includeSubdomains="true"
+            tools:ignore="NetworkSecurityConfig" />
     </domain-config>
 </network-security-config>
