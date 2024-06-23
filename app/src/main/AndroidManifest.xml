@@ -14,8 +14,16 @@
         tools:ignore="ScopedStorage"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-feature android:name="android.hardware.touchscreen" />
+    <uses-feature android:name="android.hardware.touchscreen.multitouch" />
+    <uses-feature android:name="android.hardware.touchscreen.multitouch.stylus" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
     <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"
         tools:ignore="SelectedPhotoAccess" />
+    <uses-permission
+        android:name="android.permission.CAMERA" />
 
     <application
         android:usesCleartextTraffic="true"
