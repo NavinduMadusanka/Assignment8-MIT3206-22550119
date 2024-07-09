@@ -15,6 +15,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:textStyle="bold"
             android:hint="Enter URL"
             android:inputType="textUri" />
 
@@ -22,6 +23,7 @@
             android:id="@+id/browse_web_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
             android:text="Browse Web Site" />
 
     </LinearLayout>
@@ -30,12 +32,14 @@
         android:id="@+id/browse_local_files_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
         android:layout_marginLeft="10dp"
         android:text="Browsing Internal Storage" />
 
     <WebView
         android:id="@+id/web_view"
         android:layout_width="match_parent"
+        android:textStyle="bold"
         android:layout_height="0dp"
         android:layout_weight="1" />
 
